@@ -20,6 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 - Download the BLE_Server.exe & add to the project directory
 - Then Add the BLE_Server.exe location path to codes server path where needed i.e for this project
 
+```
 (void main() async {
   // INTEGRATED: WinBle initialization is required before running the app
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,4 +29,5 @@ samples, guidance on mobile development, and a full API reference.
     // IMPORTANT: Make sure this path to BLEServer.exe is correct for your system
     await WinBle.initialize(
       serverPath:
-          'C:/Users/aryan/OneDrive/Desktop/oximeter_app/flutter_application_1/BLEServer.exe',) <--------- RIGHT HERE UR CUSTOM PATH!!!
+          'C:/Users/aryan/OneDrive/Desktop/oximeter_app/flutter_application_1/BLEServer.exe',)<--------- RIGHT HERE UR CUSTOM PATH!!!
+```
